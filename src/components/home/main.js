@@ -18,7 +18,7 @@ export default function Main() {
                 </div>
                     
                 <div className='col-md-6 col-sm-12'>
-                    <img src='images/mainImage.png' alt='mainImage' className='rounded w-100'/>
+                    <img src='images/mainImage.PNG' alt='mainImage' className='rounded w-100'/>
                 </div>
             </div>
         </div>
