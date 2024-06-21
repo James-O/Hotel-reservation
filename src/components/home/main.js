@@ -17,7 +17,7 @@ export default function Main() {
                     <button className='rounded px-5 py-3 h5 border border-none'>Search Hotels</button>
                 </div>
                     
-                <div className='col-md-6 col-sm-12'>
+                <div className='col-md-6 col-sm-12'>{Image}
                     <img src='images/mainImage.PNG' alt='mainImage' className='rounded w-100'/>
                 </div>
             </div>
