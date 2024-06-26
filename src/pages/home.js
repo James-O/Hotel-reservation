@@ -4,6 +4,7 @@ import Main from '../components/home/main'
 import Security from '../components/home/security'
 import Tours from '../components/home/tours'
 import Summary from '../components/home/summary'
+import Posts from '../components/home/posts'
 
 function Home() {
   return (
@@ -17,6 +18,7 @@ function Home() {
       <PauseOnHover/>
       <Tours/>
       <Summary/>
+      <Posts/>
     </div>
   )
 }

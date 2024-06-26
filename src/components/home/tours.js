@@ -39,14 +39,14 @@ export default function Tours() {
   return (
     <div className='container my-5'>
         <div className='row'>
-            <div className='col-5 h5' style={{fontWeight:"bold"}}>
+            <div className='col-md-5 col-sm-12 h5' style={{fontWeight:"bold"}}>
                 <h1 style={{fontSize:"50px",fontWeight:"bold"}}>Trending Tours</h1>
                 <p className='text-black-50'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minim veniam.</p>
                 <Link to={"alltours"} className='text-decoration-none' style={{color:"#4C3BCF"}}>View All Tours <ArrowRight/></Link>
             </div>
-            <div className='col-7'>
+            <div className='col-md-7 col-sm-12'>
                 <div className='row'>
-                    <div className='col-6'>
+                    <div className='col-md-6 col-sm-12'>
                         <TourCad
                             img="images/trending1.PNG"
                             name="Beachfront"
@@ -57,7 +57,7 @@ export default function Tours() {
                             loc="AFRICA"
                         />
                     </div>
-                    <div className='col-6'>
+                    <div className='col-md-6 col-sm-12'>
                         <TourCad
                             img="images/trending2.PNG"
                             name="Cruise"
