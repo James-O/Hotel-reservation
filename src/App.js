@@ -5,6 +5,7 @@ import AllTours from './pages/allTours';
 import Blog from './pages/blog';
 import Home from './pages/home';
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
+import Movies from './pages/movies';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path='about' element={<About/>}/>
           <Route path='blog' element={<Blog/>}/>
           <Route path='alltours' element={<AllTours/>}/>
+          <Route path='movies' element={<Movies/>}/>
           <Route/>
         </Route>
       </Routes>

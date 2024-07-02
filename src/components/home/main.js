@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Main() {
   return (
-    <div className='bg-body-tertiary'>
+    <div className='bg-body-tertiary' style={{paddingTop:"8rem" }}>
         <div className='container'>
             <div className='row'>
                 <div className='col-md-6 col-sm-12'>

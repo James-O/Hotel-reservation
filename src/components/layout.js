@@ -7,7 +7,7 @@ import Navbar from 'react-bootstrap/Navbar';
 function Layout() {
   return (
     <div>
-       <Navbar expand="lg" className="bg-body-tertiary">
+       <Navbar expand="lg" className="bg-body-tertiary fixed-top">
       <Container>
         <Navbar.Brand href="#home">
         <Nav.Link href='/' className='d-flex gap-2'>
@@ -21,6 +21,7 @@ function Layout() {
             <Nav.Link href="/about">about</Nav.Link>
             <Nav.Link href="/blog">blog</Nav.Link>
             <Nav.Link href="/pricing">pricing</Nav.Link>
+            <Nav.Link href="/movies">movies</Nav.Link>
           </Nav>
           <Nav className='h5'>
             <Nav.Link href='/login'>login</Nav.Link>
